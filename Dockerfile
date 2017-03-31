@@ -1,4 +1,4 @@
-FROM drewantech/flask_sqlalchemy:1.0.0
+FROM drewantech/flask_sqlalchemy:1.0.1
 MAINTAINER Benton Drew <benton.s.drew@drewantech.com>
 USER root
 RUN rm test_sqlalchemy.py && \
